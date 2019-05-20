@@ -20,7 +20,7 @@ public class BookStoreController {
 
 	public void run() {
 		while (true) {
-			accountController.startAccount();
+			accountController.run();
 			startBook();
 		}
 	}

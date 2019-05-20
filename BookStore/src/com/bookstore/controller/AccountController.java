@@ -18,7 +18,7 @@ public class AccountController {
 		service = AccountServiceImpl.getInstance();
 	}
 
-	public void startAccount() {
+	public void run() {
 		for (;;) {
 			try {
 				doProcess(showMenu());
@@ -97,7 +97,7 @@ public class AccountController {
 		String password = new String(BookUtils.getConsole().readPassword("Password : "));
 		
 		if("exit".equals(loginId) || "exit".equals(password)) 
-			startAccount();
+			run();
 		
 		return new Account(loginId, PasswordUtil.encryptPassword(password));
 
