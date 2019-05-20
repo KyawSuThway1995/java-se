@@ -1,4 +1,4 @@
-package com.bookstore.controller;
+package com.bookstore.dto;
 
 public enum BookOpearation {
 	SHAWALL, CREATE, UPDATE, DELETE, SEARCH, LOGOUT;

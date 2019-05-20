@@ -3,7 +3,7 @@ package com.bookstore.service;
 import java.time.LocalDate;
 import java.util.List;
 
-import com.bookstore.domain.Book;
+import com.bookstore.dto.Book;
 
 public interface BookService {
 	void createORUpdate(Book book);

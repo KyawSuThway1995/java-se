@@ -1,4 +1,4 @@
-package com.bookstore.domain;
+package com.bookstore.dto;
 
 import java.io.Serializable;
 import java.time.LocalDate;

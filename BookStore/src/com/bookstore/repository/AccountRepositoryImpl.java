@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import com.bookstore.domain.Account;
+import com.bookstore.dto.Account;
 import com.bookstore.exception.AccountException;
 
 public class AccountRepositoryImpl implements AccountRepository {

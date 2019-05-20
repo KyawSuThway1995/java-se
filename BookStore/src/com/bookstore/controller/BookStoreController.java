@@ -3,7 +3,8 @@ package com.bookstore.controller;
 import java.time.LocalDate;
 import java.util.List;
 
-import com.bookstore.domain.Book;
+import com.bookstore.dto.Book;
+import com.bookstore.dto.BookOpearation;
 import com.bookstore.exception.BookStoreException;
 import com.bookstore.service.BookService;
 import com.bookstore.service.BookServiceImpl;

@@ -1,6 +1,6 @@
 package com.bookstore.service;
 
-import com.bookstore.domain.Account;
+import com.bookstore.dto.Account;
 import com.bookstore.repository.AccountRepository;
 import com.bookstore.repository.AccountRepositoryImpl;
 

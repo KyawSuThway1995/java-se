@@ -1,6 +1,6 @@
 package com.bookstore.repository;
 
-import com.bookstore.domain.Account;
+import com.bookstore.dto.Account;
 
 public interface AccountRepository{
 	void create(Account account);
