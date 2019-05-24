@@ -42,11 +42,11 @@ public class AccountController {
 
 	private void doProcess(AccountOpearation ope) {
 		switch (ope) {
-		case SIGN_IN:
+		case SIGN_UP:
 			signUp();
 			break;
 
-		case SIGN_OUT:
+		case SIGN_IN:
 			signIn();
 			break;
 			
